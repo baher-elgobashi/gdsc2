@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        select {
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset style="background-color: brown;height:500px;width:1000px;">
+        <legend>
+            <p style="background-color: #3a6a94;width:fit-content;">personal data</p>
+        </legend>
+        <div>
+            <fieldset style="background-color: yellow;height: 150px;">
+                <legend style="background-color: steelblue;height: 80px;line-height: 75px;">
+                    yourname
+                </legend>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <div>
+                    <form>
+                        <label style="padding-right: 30px;">first name : </label>
+                        <input type="text" placeholder="ex baher">
+                        <br>
+                        <label>secound name : </label>
+                        <input type="text" placeholder=" ex Elgobashi">
+                    </form>
+                </div>
+            </fieldset>
+        </div>
+        &nbsp;
+        <div>
+            <form>
+                <div>
+                    <label>your phone &nbsp;: </label>
+                    <input type="text">
+                    <br>
+                    <label> email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : </label>
+                    <input type="email">
+                    <br>
+                    <label> password &nbsp; &nbsp;&nbsp;: </label>
+                    <input type="password">
+                    <br>
+                    <label> re-password :</label>
+                    <input type="re-password">
+                </div>
+                &nbsp;
+                <div>
+                    <input id="ma" type="radio" value="male" name="gender">
+                    <label for="ma">male</label>
+                    <br>
+                    <input id="fm" type="radio" value="female" name="gender">
+                    <label for="fm">female</label>
+                </div>
+                &nbsp; &nbsp;
+                <div>
+                    <input type="checkbox">
+                    <label for="">student</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">Graduated</label>
+                </div>
+                &nbsp; &nbsp;
+                <div>
+                    <select>
+                        <option value="" selected>Manga</option>
+                    </select>
+                    <br>
+                    <button type="button" style="background-color:black"><img style="width:50px;height: 20px;"
+                            src="submit.jpg" alt=""></button>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+</body>
+
+</html>
